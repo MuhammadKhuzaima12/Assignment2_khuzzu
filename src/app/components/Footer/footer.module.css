@@ -1,0 +1,15 @@
+.footer{
+    background-color: black;
+    color: slategrey;
+    padding: 50px;
+}
+.h1{
+    text-align: center;
+}
+.h3{
+    margin: 10px;
+}
+.p{
+    text-align: center;
+    margin-top: 10px;
+}
