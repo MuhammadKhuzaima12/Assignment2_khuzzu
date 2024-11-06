@@ -12,16 +12,16 @@ const Header = () => {
             <div className={style.navigate}>
             <ul className={style.list}>
                 <li className={style.li}>
-                    <Link className={style.link} href="http://localhost:3000" target="_self">Home</Link>
+                    <Link className={style.link} href="/" target="_self">Home</Link>
                 </li>
                 <li className={style.li}>
-                    <Link className={style.link} href="http://localhost:3000/about" target="_self">About</Link>
+                    <Link className={style.link} href="/about" target="_self">About</Link>
                 </li>
                 <li className={style.li}>
-                    <Link className={style.link} href="http://localhost:3000/cards" target="_self">Cards</Link>
+                    <Link className={style.link} href="/cards" target="_self">Cards</Link>
                 </li>
                 <li className={style.li}>
-                    <Link className={style.link} href="http://localhost:3000/animated" target="_self">Animated Cards</Link>
+                    <Link className={style.link} href="/animated" target="_self">Animated Cards</Link>
                 </li>
                 <li className={style.li}>
                     <Link className={style.link} href="">Contact</Link>
